@@ -75,10 +75,26 @@ WSGI_APPLICATION = 'SMWEB.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+# 连接数据库（mysql）
+# 然后再某个init文件内导入pymysql模块
+# import pymysql
+# pymysql.install_as_MySQLdb()
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'userinfo',
+        'USER': 'userinfo01',
+        'PASSWORD': 'abc-123',
+        'HOST': '10.18.193.32',
+        'PORT':'3306',
+        'CHARSET':'utf8'
+
     }
 }
 
