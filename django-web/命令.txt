@@ -21,3 +21,8 @@ userapp功能
     tests.py 测试文件
     views.py 视图函数
 
+python .\SMWEB\manage.py  makemigrations
+将操作记录记录到migrations文件夹内
+
+python .\SMWEB\manage.py  migrate
+将记录通不到数据库中
