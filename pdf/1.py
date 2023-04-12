@@ -4,7 +4,7 @@ headers = {
     'content-type': 'text/plain;',
 }
 data = '{"jsonrpc": "1.0", "id":"curltest", "method": "getblockcount", "params": [] }'
-response = requests.post('http://10.18.193.199:12345', headers=headers, data=data, auth=('CF', 'ITsupport'))
+response = requests.post('http://192.168.3.131:8080', headers=headers, data=data, auth=('CF', 'ITsupport'))
 print(response.text)
 #一般情况下就可以请求成功得到返回值
 # curl --user CF --data-binary \
