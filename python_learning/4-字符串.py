@@ -74,10 +74,8 @@ Unicode字符出
         ljust(width[, fillchar]) 返回一个原字符串左对齐,并使用 fillchar 填充至长度 width 的新字符串,
         fillchar 默认为空格。
 
-        lower() 转换字符串中所有大写字符为小写.
+        lower() 转换字符串中所有大写字符为小写
 
-        lstrip() 截掉字符串左边的空格或指定字符
-       
         maketrans() 创建字符映射的转换表,对于接受两个参数的最简单的调用方式,第一个参数是字符串,
         表示需要转换的字符,第二个参数也是字符串表示转换的目标。
 
@@ -118,7 +116,9 @@ Unicode字符出
 
         zfill (width) 返回长度为 width 的字符串,原字符串右对齐,前面填充0
 
-        isdecimal() 检查字符串是否只包含十进制字符,如果是返回 true,否则返回 false。
+        isdecimal() 检查字符串是否只包含十进制字符,如果是返回 true,否则返回 false
+
+        lstrip() 截掉字符串左边的空格或指定字符
 """
 a = 'l'
 b = 'hello'
