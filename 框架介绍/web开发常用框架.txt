@@ -1,0 +1,16 @@
+1.Django
+    Django 应该是最出名的Python框架，GAE甚至Erlang都有框架受它影响。
+    Django是走大而全的方向，它最出名的是其全自动化的管理后台：只需要使用起ORM，做简单的对象定义，它就能自动生成数据库结构、以及全功能的管理后台
+2.Bottle
+    Bottle是一个简单高效的遵循WSGI的微型python Web框架。说微型，是因为它只有一个文件，除Python标准库外，它不依赖于任何第三方模块
+3.Flask
+    不同于Django它是轻量级Web应用框架。基于Werkzeug WSGI工具箱和Jinja2 模板引擎。
+    Flask也被称为“microframework”，因为它使用简单的核心，用extension增加其他功能。
+    Flask没有默认使用的数据库、窗体验证工具。 但是Flask是可以扩增的，你可以使用可以用Flask-extension增加前边没有的一些功能
+4.Tornado
+    Tornado的全称是Torado Web Server，从名字上看就可知道它可以用作Web服务器，但同时它也是一个Python Web的开发框架。
+    最初是在FriendFeed公司的网站上使用，FaceBook收购了之后便开源了出来。
+    Tornado 和现在的主流 Web 服务器框架和大多数Python框架有着明显的区别：它是非阻塞式服务器，而且速度相当快。
+    也是比较常被使用的Python开源框架之一
+5.Web2py
+    Web2py是一个为Python语言提供的全功能Web应用框架，旨在敏捷快速的开发Web应用，具有快速、安全以及可移植的数据库驱动的应用，兼容Google App Engine
