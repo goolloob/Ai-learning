@@ -1,12 +1,7 @@
 name: My GitHub Action
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-
+on: 
+  watch:
+    types: [started] 
 jobs:
   build:
     runs-on: ubuntu-latest
