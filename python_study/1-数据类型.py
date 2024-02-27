@@ -5,7 +5,7 @@ python3 常见的数据类型：
     bool(布尔类型)
     List(列表)
     Tuple(元组)
-    Set(集合)
+    Set(集合)1
     Dictionary(字典)
 
 不可变的类型为:Number(数字),String(字符串),Tuple(元组)
